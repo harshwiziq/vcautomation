@@ -1,0 +1,4 @@
+report.html
+*.log
+**/load/testoutput/**
+

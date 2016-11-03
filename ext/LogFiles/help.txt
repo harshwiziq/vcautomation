@@ -1,0 +1,2 @@
+This directory contains the logs of every build of this project
+You can find the log file with the current date and time

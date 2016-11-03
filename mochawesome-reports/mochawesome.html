@@ -1,0 +1,492 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mochawesome Report Card</title>
+    
+    <link rel="stylesheet" href="css/mochawesome.css">
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="report-info-cnt">
+          <h1 class="report-title">vcautomation</h1>
+          <h3 class="report-date">Tuesday, July 19 2016, 04:50pm</h3>
+        </div>
+        <div class="quick-summary-cnt">
+            <ul class="list-unstyled quick-summary">
+              <li class="qs-item summary-duration" title="Duration">4:23<span>M</span></li>
+              <li class="qs-item summary-suites" title="Suites">1</li>
+              <li class="qs-item summary-tests" title="Tests">21</li>
+              <li class="qs-item summary-passes" title="Passed" data-filter="passed">1</li>
+              <li class="qs-item summary-failures" title="Failed" data-filter="failed">0</li>
+              <li class="qs-item summary-pending" title="Pending" data-filter="pending">0</li>
+            </ul>        </div>
+      </div>
+    </div>
+
+    <!-- Report Summary -->
+    <div class="summary">
+      <div class="container">
+          <div class="row">
+            <div class="summary-col summary-duration">
+              <h1 class="summary-count">4:23<span>M</span></h1>
+              <h4 class="summary-label">M</h4>
+            </div>
+            <div class="summary-col summary-suites" title="Suites">
+              <h1 class="summary-count">1</h1>
+              <h4 class="summary-label">Suite</h4>
+            </div>
+            <div class="summary-col summary-tests" title="Tests">
+              <h1 class="summary-count">21</h1>
+              <h4 class="summary-label">Tests</h4>
+            </div>
+            <div class="summary-col summary-passes" data-filter="passed" title="Passed">
+              <h1 class="summary-count">1</h1>
+              <h4 class="summary-label">Passed</h4>
+            </div>
+            <div class="summary-col summary-failures" data-filter="failed" title="Failed">
+              <h1 class="summary-count">0</h1>
+              <h4 class="summary-label">Failed</h4>
+            </div>
+            <div class="summary-col summary-pending" data-filter="pending" title="Pending">
+              <h1 class="summary-count">0</h1>
+              <h4 class="summary-label">Pending</h4>
+            </div>
+          </div>      </div>
+    </div>
+    <div class="statusbar has-skipped-tests">
+      <div class="container">
+          <div class="row">
+            <div class="status-item status-item-skipped danger">20 Skipped Tests</div>
+            <div class="status-item status-item-pending-pct">0% Pending</div>
+            <div class="status-item status-item-passing-pct danger">4.8% Passing</div>
+          </div>      </div>
+    </div>
+
+    <!-- Suites -->
+    <div class="details container">
+            <section class="suite-wrap">
+          <div id="773544dd-1192-4f21-a037-749f390eea6d" class="suite has-tests has-passed has-skipped">
+            <h3 class="suite-title">Content Library Test Suite</h3>
+            <h5 class="suite-filename">/test/CMS/test1.js</h5>
+            <!-- Suite Chart -->
+            <div class="suite-chart-wrap">
+              <canvas id="773544dd-1192-4f21-a037-749f390eea6d" class="suite-chart" width="50" height="50" data-total-passes="1" data-total-failures="0" data-total-pending="0" data-total-skipped="20"></canvas>
+            </div>
+            <div class="suite-data-wrap">
+              <!-- Suite Summary -->
+              <ul class="suite-summary list-unstyled">
+                <li class="suite-summary-item duration">4:20.430 m</li>
+                <li class="suite-summary-item tests">21</li>
+                <li class="suite-summary-item passed">1</li>
+                <li class="suite-summary-item failed">0</li>
+                <li class="suite-summary-item pending">0</li>
+              </ul>
+              <!-- Test Info -->
+              <div class="suite-test-wrap">
+                <div class="suite-test-header" data-toggle="collapse" data-target="#773544dd-1192-4f21-a037-749f390eea6d-test-list">
+                  <h4 class="suite-test-header-title">Tests</h4>
+                </div>
+                <div id="773544dd-1192-4f21-a037-749f390eea6d-test-list" class="list-group test-list collapse in">
+                    <div id="6784c8a1-fa8a-44c3-98a9-b0b9c8918dd1" class="list-group-item test skipped">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              verify for a pdf file, get a tmp url for a pdf file, upload it on amazon s3, start conversion, conversion should be successfull
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#6784c8a1-fa8a-44c3-98a9-b0b9c8918dd1 > .test-code.collapse">Code</button>
+              <span class="test-duration ">0 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small"><span class="hljs-keyword">this</span>.timeout(<span class="hljs-number">600000</span>);<br>	log.info({<span class="hljs-string">"TC"</span>:<span class="hljs-string">'verify for a pdf file, get a tmp url for a pdf file, upload it on amazon s3, start conversion, conversion should be successfull'</span>},<span class="hljs-string">'Test Case'</span>)<br>	app(<span class="hljs-string">'a'</span>,<span class="hljs-string">'aaaa'</span>, <span class="hljs-string">'abc.pdf'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">a,ws,msg</span>) </span>{<br>	<span class="hljs-keyword">if</span>(ws)<br>	ws_cons[++l]=ws;<span class="hljs-comment">//we are storing the web socket refrences in an array, will close these socket connections in after block</span><br>	<span class="hljs-keyword">if</span>(a==<span class="hljs-number">1</span>) {<br>	done();<br>	} <br>	<span class="hljs-keyword">else</span> {<br>	done(msg);<br>	}<br>	})</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="f0f263f3-ce28-4eee-b4a4-b1786f182a60" class="list-group-item test skipped">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              verify for a csv file, get a tmp url for a csv file, upload it on amazon s3, start conversion, conversion should be successfull
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#f0f263f3-ce28-4eee-b4a4-b1786f182a60 > .test-code.collapse">Code</button>
+              <span class="test-duration ">0 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small"><span class="hljs-keyword">this</span>.timeout(<span class="hljs-number">600000</span>);<br>	log.info({<span class="hljs-string">"TC"</span>:<span class="hljs-string">'verify for a csv file, get a tmp url for a csv file, upload it on amazon s3, start conversion, conversion should be successfull'</span>},<span class="hljs-string">'Test Case'</span>)<br>	app(<span class="hljs-string">'a'</span>,<span class="hljs-string">'aaaa'</span>, <span class="hljs-string">'test.csv'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">a,ws,msg</span>) </span>{<br>	    <span class="hljs-keyword">if</span>(ws)<br>		ws_cons[++l]=ws;<span class="hljs-comment">//we are storing the web socket refrences in an array, will close these socket connections in after block</span><br>	    <span class="hljs-keyword">if</span>(a==<span class="hljs-number">1</span>) {<br>		done();<br>	    } <br>	    <span class="hljs-keyword">else</span> {<br>		done(msg);<br>	    }<br>	})</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="1c74db4d-ebe8-4adf-8fcd-8cdffe7abd8d" class="list-group-item test skipped">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              verify for a doc file, get a tmp url for a doc file, upload it on amazon s3, start conversion, conversion should be successfull
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#1c74db4d-ebe8-4adf-8fcd-8cdffe7abd8d > .test-code.collapse">Code</button>
+              <span class="test-duration ">0 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small"><span class="hljs-keyword">this</span>.timeout(<span class="hljs-number">600000</span>);<br>	log.info({<span class="hljs-string">"TC"</span>:<span class="hljs-string">'verify for a doc file, get a tmp url for a doc file, upload it on amazon s3, start conversion, conversion should be successfull'</span>},<span class="hljs-string">'Test Case'</span>)<br>	app(<span class="hljs-string">'a'</span>,<span class="hljs-string">'aaaa'</span>, <span class="hljs-string">'test.doc'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">a,ws,msg</span>) </span>{<br>	    <span class="hljs-keyword">if</span>(ws)<br>		ws_cons[++l]=ws;<span class="hljs-comment">//we are storing the web socket refrences in an array, will close these socket connections in after block</span><br>	    <span class="hljs-keyword">if</span>(a==<span class="hljs-number">1</span>) {<br>		done();<br>	    } <br>	    <span class="hljs-keyword">else</span> {<br>		done(msg);<br>	    }<br>	})</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="f3fe59d6-e839-4acf-ac6e-409c668bb2aa" class="list-group-item test skipped">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              verify for a docx file, get a tmp url for a docx file, upload it on amazon s3, start conversion, conversion should be successfull
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#f3fe59d6-e839-4acf-ac6e-409c668bb2aa > .test-code.collapse">Code</button>
+              <span class="test-duration ">0 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small"><span class="hljs-keyword">this</span>.timeout(<span class="hljs-number">600000</span>);<br>	log.info({<span class="hljs-string">"TC"</span>:<span class="hljs-string">'verify for, docx file, get a tmp url for a docx file, upload it on amazon s3, start conversion, conversion should be successfull'</span>},<span class="hljs-string">'Test Case'</span>)<br>	app(<span class="hljs-string">'a'</span>,<span class="hljs-string">'aaaa'</span>, <span class="hljs-string">'test.docx'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">a,ws,msg</span>) </span>{<br>	    <span class="hljs-keyword">if</span>(ws)<br>		ws_cons[++l]=ws;<span class="hljs-comment">//we are storing the web socket refrences in an array, will close these socket connections in after block</span><br>	    <span class="hljs-keyword">if</span>(a==<span class="hljs-number">1</span>) {<br>		done();<br>	    } <br>	    <span class="hljs-keyword">else</span> {<br>		done(msg);<br>	    }<br>	})</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="e5674bb7-7c59-4aa3-9461-659e2620a0f2" class="list-group-item test skipped">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              verify for a ppt file, get a tmp url for a ppt file, upload it on amazon s3, start conversion, conversion should be successfull
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#e5674bb7-7c59-4aa3-9461-659e2620a0f2 > .test-code.collapse">Code</button>
+              <span class="test-duration ">0 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small"><span class="hljs-keyword">this</span>.timeout(<span class="hljs-number">600000</span>);<br>	log.info({<span class="hljs-string">"TC"</span>:<span class="hljs-string">'verify for a ppt file, get a tmp url for a ppt file, upload it on amazon s3, start conversion, conversion should be successfull'</span>},<span class="hljs-string">'Test Case'</span>)<br>	app(<span class="hljs-string">'a'</span>,<span class="hljs-string">'aaaa'</span>, <span class="hljs-string">'test.ppt'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">a,ws,msg</span>) </span>{<br>	    <span class="hljs-keyword">if</span>(ws)<br>		ws_cons[++l]=ws;<span class="hljs-comment">//we are storing the web socket refrences in an array, will close these socket connections in after block</span><br>	    <span class="hljs-keyword">if</span>(a==<span class="hljs-number">1</span>) {<br>		done();<br>	    } <br>	    <span class="hljs-keyword">else</span> {<br>		done(msg);<br>	    }<br>	})</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="bd5874ed-a466-4910-ac31-a7c6525815a0" class="list-group-item test skipped">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              verify for a pptx file, get a tmp url for a pptx file, upload it on amazon s3, start conversion, conversion should be successfull
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#bd5874ed-a466-4910-ac31-a7c6525815a0 > .test-code.collapse">Code</button>
+              <span class="test-duration ">0 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small"><span class="hljs-keyword">this</span>.timeout(<span class="hljs-number">600000</span>);<br>	log.info({<span class="hljs-string">"TC"</span>:<span class="hljs-string">'verify for, pptx file, get a tmp url for a pptx file, upload it on amazon s3, start conversion, conversion should be successfull'</span>},<span class="hljs-string">'Test Case'</span>)<br>	app(<span class="hljs-string">'a'</span>,<span class="hljs-string">'aaaa'</span>, <span class="hljs-string">'test.pptx'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">a,ws,msg</span>) </span>{<br>	    <span class="hljs-keyword">if</span>(ws)<br>		ws_cons[++l]=ws;<span class="hljs-comment">//we are storing the web socket refrences in an array, will close these socket connections in after block</span><br>	    <span class="hljs-keyword">if</span>(a==<span class="hljs-number">1</span>) {<br>		done();<br>	    } <br>	    <span class="hljs-keyword">else</span> {<br>		done(msg);<br>	    }<br>	})</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="ae792db7-e33e-445a-9037-f5c34d00b779" class="list-group-item test skipped">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              verify for a xls file, get a tmp url for a xls file, upload it on amazon s3, start conversion, conversion should be successfull
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#ae792db7-e33e-445a-9037-f5c34d00b779 > .test-code.collapse">Code</button>
+              <span class="test-duration ">0 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small"><span class="hljs-keyword">this</span>.timeout(<span class="hljs-number">600000</span>);<br>	log.info({<span class="hljs-string">"TC"</span>:<span class="hljs-string">'verify for a xls file, get a tmp url for a xls file, upload it on amazon s3, start conversion, conversion should be successfull'</span>},<span class="hljs-string">'Test Case'</span>)<br>	app(<span class="hljs-string">'a'</span>,<span class="hljs-string">'aaaa'</span>, <span class="hljs-string">'test.xls'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">a,ws,msg</span>) </span>{<br>	    <span class="hljs-keyword">if</span>(ws)<br>		ws_cons[++l]=ws;<span class="hljs-comment">//we are storing the web socket refrences in an array, will close these socket connections in after block</span><br>	    <span class="hljs-keyword">if</span>(a==<span class="hljs-number">1</span>) {<br>		done();<br>	    } <br>	    <span class="hljs-keyword">else</span> {<br>		done(msg);<br>	    }<br>	})</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="e931eee4-5d86-4477-9280-ba9985d50769" class="list-group-item test skipped">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              verify for a xlsx file, get a tmp url for a xlsx file, upload it on amazon s3, start conversion, conversion should be successfull
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#e931eee4-5d86-4477-9280-ba9985d50769 > .test-code.collapse">Code</button>
+              <span class="test-duration ">0 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small"><span class="hljs-keyword">this</span>.timeout(<span class="hljs-number">600000</span>);<br>	log.info({<span class="hljs-string">"TC"</span>:<span class="hljs-string">'verify for a xlsx file, get a tmp url for a xlsx file, upload it on amazon s3, start conversion, conversion should be successfull'</span>},<span class="hljs-string">'Test Case'</span>)<br>	app(<span class="hljs-string">'a'</span>,<span class="hljs-string">'aaaa'</span>, <span class="hljs-string">'test.xlsx'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">a,ws,msg</span>) </span>{<br>	    <span class="hljs-keyword">if</span>(ws)<br>		ws_cons[++l]=ws;<span class="hljs-comment">//we are storing the web socket refrences in an array, will close these socket connections in after block</span><br>	    <span class="hljs-keyword">if</span>(a==<span class="hljs-number">1</span>) {<br>		done();<br>	    } <br>	    <span class="hljs-keyword">else</span> {<br>		done(msg);<br>	    }<br>	})</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="4c16ceb7-e809-48a4-a8f2-690f2ab8a176" class="list-group-item test skipped">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              verify for a xml file, get a tmp url for a xml file, upload it on amazon s3, start conversion, conversion should be successfull
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#4c16ceb7-e809-48a4-a8f2-690f2ab8a176 > .test-code.collapse">Code</button>
+              <span class="test-duration ">0 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small"><span class="hljs-keyword">this</span>.timeout(<span class="hljs-number">600000</span>);<br>	log.info({<span class="hljs-string">"TC"</span>:<span class="hljs-string">'verify for a xml file, get a tmp url for a xml file, upload it on amazon s3, start conversion, conversion should be successfull'</span>},<span class="hljs-string">'Test Case'</span>)<br>	app(<span class="hljs-string">'a'</span>,<span class="hljs-string">'aaaa'</span>, <span class="hljs-string">'test.xml'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">a,ws,msg</span>) </span>{<br>	    <span class="hljs-keyword">if</span>(ws)<br>		ws_cons[++l]=ws;<span class="hljs-comment">//we are storing the web socket refrences in an array, will close these socket connections in after block</span><br>	    <span class="hljs-keyword">if</span>(a==<span class="hljs-number">1</span>) {<br>		done();<br>	    } <br>	    <span class="hljs-keyword">else</span> {<br>		done(msg);<br>	    }<br>	})</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="0c6cfa76-9242-436d-b380-2df2a6c4aa74" class="list-group-item test skipped">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              verify for a txt file, get a tmp url for a txt file, upload it on amazon s3, start conversion, conversion should be successfull
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#0c6cfa76-9242-436d-b380-2df2a6c4aa74 > .test-code.collapse">Code</button>
+              <span class="test-duration ">0 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small"><span class="hljs-keyword">this</span>.timeout(<span class="hljs-number">600000</span>);<br>	log.info({<span class="hljs-string">"TC"</span>:<span class="hljs-string">'verify for a txt file, get a tmp url for a txt file, upload it on amazon s3, start conversion, conversion should be successfull'</span>},<span class="hljs-string">'Test Case'</span>)<br>	app(<span class="hljs-string">'a'</span>,<span class="hljs-string">'aaaa'</span>, <span class="hljs-string">'test.txt'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">a,ws,msg</span>) </span>{<br>	    <span class="hljs-keyword">if</span>(ws)<br>		ws_cons[++l]=ws;<span class="hljs-comment">//we are storing the web socket refrences in an array, will close these socket connections in after block</span><br>	    <span class="hljs-keyword">if</span>(a==<span class="hljs-number">1</span>) {<br>		done();<br>	    } <br>	    <span class="hljs-keyword">else</span> {<br>		done(msg);<br>	    }<br>	})</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="8da69604-6f0c-4e22-a8c8-23f8a3c1ce1b" class="list-group-item test skipped">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              verify for a html file, get a tmp url for a html file, upload it on amazon s3, start conversion, conversion should be successfull
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#8da69604-6f0c-4e22-a8c8-23f8a3c1ce1b > .test-code.collapse">Code</button>
+              <span class="test-duration ">0 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small"><span class="hljs-keyword">this</span>.timeout(<span class="hljs-number">600000</span>);<br>	log.info({<span class="hljs-string">"TC"</span>:<span class="hljs-string">'verify for a html file, get a tmp url for a html file, upload it on amazon s3, start conversion, conversion should be successfull'</span>},<span class="hljs-string">'Test Case'</span>)<br>	app(<span class="hljs-string">'a'</span>,<span class="hljs-string">'aaaa'</span>, <span class="hljs-string">'test.html'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">a,ws,msg</span>) </span>{<br>	    <span class="hljs-keyword">if</span>(ws)<br>		ws_cons[++l]=ws;<span class="hljs-comment">//we are storing the web socket refrences in an array, will close these socket connections in after block</span><br>	    <span class="hljs-keyword">if</span>(a==<span class="hljs-number">1</span>) {<br>		done();<br>	    } <br>	    <span class="hljs-keyword">else</span> {<br>		done(msg);<br>	    }<br>	})</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="a2a01711-59e0-46cb-ba6b-d0ab53bfbdfc" class="list-group-item test skipped">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              verify for a htm file, get a tmp url for a htm file, upload it on amazon s3, start conversion, conversion should be successfull
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#a2a01711-59e0-46cb-ba6b-d0ab53bfbdfc > .test-code.collapse">Code</button>
+              <span class="test-duration ">0 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small"><span class="hljs-keyword">this</span>.timeout(<span class="hljs-number">600000</span>);<br>	log.info({<span class="hljs-string">"TC"</span>:<span class="hljs-string">'verify for a htm file, get a tmp url for a htm file, upload it on amazon s3, start conversion, conversion should be successfull'</span>},<span class="hljs-string">'Test Case'</span>)<br>	app(<span class="hljs-string">'a'</span>,<span class="hljs-string">'aaaa'</span>, <span class="hljs-string">'test.htm'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">a,ws,msg</span>) </span>{<br>	    <span class="hljs-keyword">if</span>(ws)<br>		ws_cons[++l]=ws;<span class="hljs-comment">//we are storing the web socket refrences in an array, will close these socket connections in after block</span><br>	    <span class="hljs-keyword">if</span>(a==<span class="hljs-number">1</span>) {<br>		done();<br>	    } <br>	    <span class="hljs-keyword">else</span> {<br>		done(msg);<br>	    }<br>	})</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="24cba8f6-eeea-444f-a099-a6a1d7223aa6" class="list-group-item test skipped">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              verify for a pps file, get a tmp url for a pps file, upload it on amazon s3, start conversion, conversion should be successfull
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#24cba8f6-eeea-444f-a099-a6a1d7223aa6 > .test-code.collapse">Code</button>
+              <span class="test-duration ">0 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small"><span class="hljs-keyword">this</span>.timeout(<span class="hljs-number">600000</span>);<br>	log.info({<span class="hljs-string">"TC"</span>:<span class="hljs-string">'verify for a pps file, get a tmp url for a pps file, upload it on amazon s3, start conversion, conversion should be successfull'</span>},<span class="hljs-string">'Test Case'</span>)<br>	app(<span class="hljs-string">'a'</span>,<span class="hljs-string">'aaaa'</span>, <span class="hljs-string">'test.pps'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">a,ws,msg</span>) </span>{<br>	    <span class="hljs-keyword">if</span>(ws)<br>		ws_cons[++l]=ws;<span class="hljs-comment">//we are storing the web socket refrences in an array, will close these socket connections in after block</span><br>	    <span class="hljs-keyword">if</span>(a==<span class="hljs-number">1</span>) {<br>		done();<br>	    } <br>	    <span class="hljs-keyword">else</span> {<br>		done(msg);<br>	    }<br>	})</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="b5c3718b-3625-4730-9bec-1878f068e90f" class="list-group-item test skipped">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              verify for a jpg file, get a tmp url for a jpg file, upload it on amazon s3, start conversion, conversion should be successfull
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#b5c3718b-3625-4730-9bec-1878f068e90f > .test-code.collapse">Code</button>
+              <span class="test-duration ">0 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small"><span class="hljs-keyword">this</span>.timeout(<span class="hljs-number">600000</span>);<br>	log.info({<span class="hljs-string">"TC"</span>:<span class="hljs-string">'verify for a jpg file, get a tmp url for a jpg file, upload it on amazon s3, start conversion, conversion should be successfull'</span>},<span class="hljs-string">'Test Case'</span>)<br>	app(<span class="hljs-string">'a'</span>,<span class="hljs-string">'aaaa'</span>, <span class="hljs-string">'test.jpg'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">a,ws,msg</span>) </span>{<br>	    <span class="hljs-keyword">if</span>(ws)<br>		ws_cons[++l]=ws;<span class="hljs-comment">//we are storing the web socket refrences in an array, will close these socket connections in after block</span><br>	    <span class="hljs-keyword">if</span>(a==<span class="hljs-number">1</span>) {<br>		done();<br>	    } <br>	    <span class="hljs-keyword">else</span> {<br>		done(msg);<br>	    }<br>	})</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="3e85550d-32f1-45ce-8151-002f3d3d6ee6" class="list-group-item test skipped">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              verify for a png file, get a tmp url for a png file, upload it on amazon s3, start conversion, conversion should be successfull
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#3e85550d-32f1-45ce-8151-002f3d3d6ee6 > .test-code.collapse">Code</button>
+              <span class="test-duration ">0 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small"><span class="hljs-keyword">this</span>.timeout(<span class="hljs-number">600000</span>);<br>	log.info({<span class="hljs-string">"TC"</span>:<span class="hljs-string">'verify for a png file, get a tmp url for a png file, upload it on amazon s3, start conversion, conversion should be successfull'</span>},<span class="hljs-string">'Test Case'</span>)<br>	app(<span class="hljs-string">'a'</span>,<span class="hljs-string">'aaaa'</span>, <span class="hljs-string">'test.png'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">a,ws,msg</span>) </span>{<br>	    <span class="hljs-keyword">if</span>(ws)<br>		ws_cons[++l]=ws;<span class="hljs-comment">//we are storing the web socket refrences in an array, will close these socket connections in after block</span><br>	    <span class="hljs-keyword">if</span>(a==<span class="hljs-number">1</span>) {<br>		done();<br>	    } <br>	    <span class="hljs-keyword">else</span> {<br>		done(msg);<br>	    }<br>	})</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="9f8429e2-004e-44e2-9cc2-f5fa89e2c7dc" class="list-group-item test skipped">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              verify for a gif file, get a tmp url for a gif file, upload it on amazon s3, start conversion, conversion should be successfull
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#9f8429e2-004e-44e2-9cc2-f5fa89e2c7dc > .test-code.collapse">Code</button>
+              <span class="test-duration ">0 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small"><span class="hljs-keyword">this</span>.timeout(<span class="hljs-number">600000</span>);<br>	log.info({<span class="hljs-string">"TC"</span>:<span class="hljs-string">'verify for a gif file, get a tmp url for a gif file, upload it on amazon s3, start conversion, conversion should be successfull'</span>},<span class="hljs-string">'Test Case'</span>)<br>	app(<span class="hljs-string">'a'</span>,<span class="hljs-string">'aaaa'</span>, <span class="hljs-string">'test.gif'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">a,ws,msg</span>) </span>{<br>	    <span class="hljs-keyword">if</span>(ws)<br>		ws_cons[++l]=ws;<span class="hljs-comment">//we are storing the web socket refrences in an array, will close these socket connections in after block</span><br>	    <span class="hljs-keyword">if</span>(a==<span class="hljs-number">1</span>) {<br>		done();<br>	    } <br>	    <span class="hljs-keyword">else</span> {<br>		done(msg);<br>	    }<br>	})</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="f09c3533-a0fe-4965-a28d-dc803c286a78" class="list-group-item test skipped">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              verify for a bmp file, get a tmp url for a bmp file, upload it on amazon s3, start conversion, conversion should be successfull
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#f09c3533-a0fe-4965-a28d-dc803c286a78 > .test-code.collapse">Code</button>
+              <span class="test-duration ">0 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small"><span class="hljs-keyword">this</span>.timeout(<span class="hljs-number">600000</span>);<br>	log.info({<span class="hljs-string">"TC"</span>:<span class="hljs-string">'verify for a bmp file, get a tmp url for a bmp file, upload it on amazon s3, start conversion, conversion should be successfull'</span>},<span class="hljs-string">'Test Case'</span>)<br>	app(<span class="hljs-string">'a'</span>,<span class="hljs-string">'aaaa'</span>, <span class="hljs-string">'test.bmp'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">a,ws,msg</span>) </span>{<br>	    <span class="hljs-keyword">if</span>(ws)<br>		ws_cons[++l]=ws;<span class="hljs-comment">//we are storing the web socket refrences in an array, will close these socket connections in after block</span><br>	    <span class="hljs-keyword">if</span>(a==<span class="hljs-number">1</span>) {<br>		done();<br>	    } <br>	    <span class="hljs-keyword">else</span> {<br>		done(msg);<br>	    }<br>	})</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="435399c3-063e-4f7b-97a8-63439e61849f" class="list-group-item test skipped">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              verify for a rtf file, get a tmp url for a rtf file, upload it on amazon s3, start conversion, conversion should be successfull
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#435399c3-063e-4f7b-97a8-63439e61849f > .test-code.collapse">Code</button>
+              <span class="test-duration ">0 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small"><span class="hljs-keyword">this</span>.timeout(<span class="hljs-number">600000</span>);<br>	log.info({<span class="hljs-string">"TC"</span>:<span class="hljs-string">'verify for a rtf file, get a tmp url for a rtf file, upload it on amazon s3, start conversion, conversion should be successfull'</span>},<span class="hljs-string">'Test Case'</span>)<br>	app(<span class="hljs-string">'a'</span>,<span class="hljs-string">'aaaa'</span>, <span class="hljs-string">'test.rtf'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">a,ws,msg</span>) </span>{<br>	    <span class="hljs-keyword">if</span>(ws)<br>		ws_cons[++l]=ws;<span class="hljs-comment">//we are storing the web socket refrences in an array, will close these socket connections in after block</span><br>	    <span class="hljs-keyword">if</span>(a==<span class="hljs-number">1</span>) {<br>		done();<br>	    } <br>	    <span class="hljs-keyword">else</span> {<br>		done(msg);<br>	    }<br>	})</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="fa8e4cd1-752f-4262-b4cb-797619b5adb2" class="list-group-item test skipped">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              verify full conversion process for a pdf file , where filename contains space, for example &#x27;space space.pdf&#x27;
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#fa8e4cd1-752f-4262-b4cb-797619b5adb2 > .test-code.collapse">Code</button>
+              <span class="test-duration ">0 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small"><span class="hljs-keyword">this</span>.timeout(<span class="hljs-number">600000</span>);<br>	log.info({<span class="hljs-string">"TC"</span>:<span class="hljs-string">'verify for a file, having space in its name'</span>},<span class="hljs-string">'Test Case'</span>)<br>	app(<span class="hljs-string">'a'</span>,<span class="hljs-string">'aaaa'</span>, <span class="hljs-string">'space space.pdf'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">a,ws,msg</span>) </span>{<br>	    <span class="hljs-keyword">if</span>(ws)<br>		ws_cons[++l]=ws;<span class="hljs-comment">//we are storing the web socket refrences in an array, will close these socket connections in after block</span><br>	    <span class="hljs-keyword">if</span>(a==<span class="hljs-number">1</span>) {<br>		done();<br>	    } <br>	    <span class="hljs-keyword">else</span> {<br>		done(msg);<br>	    }<br>	})</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="9b310b81-295b-4d5c-9609-fa28111fcc29" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              verify full conversion process for a doc file , where filename contains space, for example &#x27;space space.doc&#x27;
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#9b310b81-295b-4d5c-9609-fa28111fcc29 > .test-code.collapse">Code</button>
+              <span class="test-duration slow">4:20.430 m</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small"><span class="hljs-keyword">this</span>.timeout(<span class="hljs-number">600000</span>);<br>	log.info({<span class="hljs-string">"TC"</span>:<span class="hljs-string">'verify for a file, having space in its name'</span>},<span class="hljs-string">'Test Case'</span>)<br>	app(<span class="hljs-string">'a'</span>,<span class="hljs-string">'aaaa'</span>, <span class="hljs-string">'space space.doc'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">a,ws,msg</span>) </span>{<br>	    <span class="hljs-keyword">if</span>(ws)<br>		ws_cons[++l]=ws;<span class="hljs-comment">//we are storing the web socket refrences in an array, will close these socket connections in after block</span><br>	    <span class="hljs-keyword">if</span>(a==<span class="hljs-number">1</span>) {<br>		done();<br>	    } <br>	    <span class="hljs-keyword">else</span> {<br>		done(msg);<br>	    }<br>	})</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="7fc97838-816e-4a17-b218-751abb8454bb" class="list-group-item test skipped">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              verify, send a get-content request, in response it should list all the content
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#7fc97838-816e-4a17-b218-751abb8454bb > .test-code.collapse">Code</button>
+              <span class="test-duration ">0 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small"><span class="hljs-keyword">this</span>.timeout(<span class="hljs-number">600000</span>);<br>	log.info({<span class="hljs-string">"TC"</span>:<span class="hljs-string">'verify send a get-content request, in response it should list all the content'</span>},<span class="hljs-string">'Test Case'</span>);<br>	app2(<span class="hljs-string">'a'</span>,<span class="hljs-string">'aaaa'</span>, <span class="hljs-string">'test.rtf'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">a,ws,msg</span>) </span>{<br>	    <span class="hljs-keyword">if</span>(ws)<br>		ws_cons[++l]=ws;<span class="hljs-comment">//we are storing the web socket references in an array, will close these socket connections in after block</span><br>	    <span class="hljs-keyword">if</span>(a==<span class="hljs-number">1</span>) {<br>		done();<br>	    } <br>	    <span class="hljs-keyword">else</span> {<br>		done(msg);<br>	    }<br>	})</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>        </div>
+              </div>
+            </div>
+        
+        
+          </div>
+        </section>
+    </div>
+
+    <footer>
+      <div class="container">
+        <p>Report generated by <a href="http://adamgruber.github.io/mochawesome/" target="_blank">mochawesome</a>.<br>Designed and built by <a href="https://github.com/adamgruber" target="_blank">adamgruber</a>. &copy;2016.</p>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/vendor.js"></script>
+    <script src="js/mochawesome.js"></script>
+  </body>
+</html>

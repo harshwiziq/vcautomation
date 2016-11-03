@@ -1,0 +1,6 @@
+{
+	"name"     : "self",
+	"host"     : "/HOST/",
+	"protocol" : "/PROTOCOL/",
+	"port"     : /PORT/
+}
